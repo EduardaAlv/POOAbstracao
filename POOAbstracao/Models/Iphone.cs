@@ -8,10 +8,9 @@ namespace POOAbstracao.Models
 {
     public class Iphone : Smartphone
     {
-        public Iphone(string numero, string modelo, int memoria) : base(numero, modelo, memoria)
+        public Iphone() : base("99999999", "Padrao", 8)
         {
-            Numero = numero;
-            Modelo = modelo;
+
         }
 
         public override void InstalarAplicativo(string nomeApp)
